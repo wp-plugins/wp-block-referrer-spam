@@ -31,18 +31,19 @@ This is not really harmful for your site or your site's search engine ranking. B
 It is very easy to check if your site is being attacked by referrer spamers. And I bet you that more than likely your site has some suscpicious visits that could be banned using this plugin.
 
 1. Open your Google Analytics account
-2. Select the statistics of the site that you want to check
-3. Expand `Acquisition` menu
-4. Expand `All Traffic` menu
-5. Go to `Referrals` menu
-6. Underneath the graphic you will see the list of referred traffic
-7. If you see weird domains like **trafficmonetize.org**, **webmonetizer.net** or **buttons-for-website.com** it means that your site is suffering **referrer spam attacks**
+1. Select the statistics of the site that you want to check
+1. Expand `Acquisition` menu
+1. Expand `All Traffic` menu
+1. Go to `Referrals` menu
+1. Underneath the graphic you will see the list of referred traffic
+1. If you see weird domains like **trafficmonetize.org**, **webmonetizer.net** or **buttons-for-website.com** it means that your site is suffering **referrer spam attacks**
 
 
 = Compatibility: =
 
 This plugin is fully compatible with any webserver by default.
 Its adaptability ensures that will work with any version of either apache, nginx, iis or lighttpd webserver.
+
 * When apache is used, the plugin adds specific rules into .htaccess file.
 * When apache is not used, the plugin automatically recognizes it and uses internal code rules to keep away spammers.
 
@@ -57,15 +58,15 @@ Every week, this plugin updates the list of referrer spammers from [this communi
 This section describes how to install the plugin and get it working.
 
 1. Go to the WordPress Dashboard **Add New Plugin** section
-2. Search For **WP Block Referral Spam**
-3. Install, then Activate it
-4. The plugin will update the referrer list automatically every 7 days
+1. Search For **WP Block Referral Spam**
+1. Install, then Activate it
+1. The plugin will update the referrer list automatically every 7 days
 
 
 **Manual/Old Way:**
 1. Upload `wp-block-referrer-spam` folder to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to **Tools > Block Referrer Spam** page and set the options under **Settings** section
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Go to **Tools > Block Referrer Spam** page and set the options under **Settings** section
 
 
 == Frequently Asked Questions ==
@@ -83,6 +84,7 @@ To do so, go to the plugin's setting page (**Tools > Block Referrer Spam**) and 
 
 This plugin is fully compatible with any webserver out-of-the-box.
 Its adaptability ensures that will work with any version of either apache, nginx, iis or lighttpd webserver.
+
 * When apache is used, the plugin adds specific rules into .htaccess file.
 * When apache is not used, the plugin automatically recognizes it and uses internal code rules to keep away spammers.
 
