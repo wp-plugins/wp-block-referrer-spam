@@ -33,7 +33,7 @@ define( 'WPBRS_REQUIRED_WP_VERSION',  '3.1' ); 	// because of esc_textarea()
  * @since    1.0
  * @return bool True if system requirements are met, false if not
  */
-function sefp_requirements_met() {
+function wpbrs_requirements_met() {
 
 	global $wp_version;
 
@@ -52,7 +52,7 @@ function sefp_requirements_met() {
  *
  * @since    1.0
  */
-function sefp_requirements_error() {
+function wpbrs_requirements_error() {
 
 	global $wp_version;
 	require_once( dirname( __FILE__ ) . '/views/errors/requirements-error.php' );
@@ -87,13 +87,13 @@ function run_wp_block_referrer_spam() {
  * 
  * @since    1.0
  */
-if ( sefp_requirements_met() ) {
+if ( wpbrs_requirements_met() ) {
 
 	run_wp_block_referrer_spam();
 
 } else {
 
-	add_action( 'admin_notices', 'sefp_requirements_error' );
+	add_action( 'admin_notices', 'wpbrs_requirements_error' );
 	require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 	deactivate_plugins( plugin_basename( __FILE__ ) );
 

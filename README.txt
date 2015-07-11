@@ -3,7 +3,7 @@ Contributors: barragan
 Tags: analytics, analytics block, analytics blocker, block analytics, analytics spam, google analytics, google spam, googlespam, block google spam, referrer, referrers, anti-referrers, block referrer, block referrers, referrer bloker, referrers bloker, block referrer spam, spam, spammer, spammers, spam referrer attack, anti-spam, antispam, spam bloker, block spam, spam filter, spambot, security, pingback, trackback
 Requires at least: 3.2
 Tested up to: 4.2.2
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -81,6 +81,9 @@ The developers that contribute to build this plugin are 100% **reliable** and so
 
 
 == Changelog ==
+
+= 1.1 =
+* Renamed internal functions to ensure compatilibity
 
 = 1.0 =
 * Initial public release
