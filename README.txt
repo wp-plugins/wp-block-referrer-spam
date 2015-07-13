@@ -48,7 +48,7 @@ Its adaptability ensures that will work with any version of either apache, nginx
 * When apache is used, the plugin adds specific rules into .htaccess file.
 * When apache is not used, the plugin automatically recognizes it and uses internal code rules to keep away spammers.
 
-Requires WordPress at least 3.2 and PHP 5.3
+Requires at least WordPress 3.2 and PHP 5.3
 
 
 = The most updated Referrer Spam List: =
