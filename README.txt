@@ -1,5 +1,6 @@
 === WP Block Referrer Spam ===
 Contributors: barragan
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UGD72JQRCVQM8
 Tags: analytics, analytics block, analytics blocker, block analytics, analytics spam, google analytics, google spam, googlespam, block google spam, referrer, referrers, anti-referrers, block referrer, block referrers, referrer bloker, referrers bloker, block referrer spam, spam, spammer, spammers, spam referrer attack, anti-spam, antispam, spam bloker, block spam, spam filter, spambot, security, pingback, trackback, apache, nginx, iis
 Requires at least: 3.2
 Tested up to: 4.2.2
@@ -44,8 +45,10 @@ It is very easy to check if your site is being attacked by referrer spamers. And
 This plugin is fully compatible with any webserver by default.
 Its adaptability ensures that will work with any version of either apache, nginx, iis or lighttpd webserver.
 
-*   When apache is used, the plugin adds specific rules into .htaccess file.
-*   When apache is not used, the plugin automatically recognizes it and uses internal code rules to keep away spammers.
+* When apache is used, the plugin adds specific rules into .htaccess file.
+* When apache is not used, the plugin automatically recognizes it and uses internal code rules to keep away spammers.
+
+Requires WordPress at least 3.2 and PHP 5.3
 
 
 = The most updated Referrer Spam List: =
@@ -53,7 +56,7 @@ Its adaptability ensures that will work with any version of either apache, nginx
 Every week, this plugin updates the list of referrer spammers from [this community-contributed list](https://github.com/piwik/referrer-spam-blacklist) of [referrer spammers](http://en.wikipedia.org/wiki/Referer_spam).
 
 
-**Development is on Bitbucket: https://bitbucket.org/rrodrigonuez/wp-block-referrer-spam**
+**Development is on Bitbucket: <https://bitbucket.org/rrodrigonuez/wp-block-referrer-spam>**
 Pull requests are more than welcome!
 
 
