@@ -56,23 +56,25 @@ Requires WordPress at least 3.2 and PHP 5.3
 Every week, this plugin updates the list of referrer spammers from [this community-contributed list](https://github.com/piwik/referrer-spam-blacklist) of [referrer spammers](http://en.wikipedia.org/wiki/Referer_spam).
 
 
-**Development is on Bitbucket: <https://bitbucket.org/rrodrigonuez/wp-block-referrer-spam>**
+**Development is on Bitbucket: https://bitbucket.org/rrodrigonuez/wp-block-referrer-spam**
+
 Pull requests are more than welcome!
 
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
+= From your WordPress dashboard: =
 
-1. Go to the WordPress Dashboard **Add New Plugin** section
-1. Search For **WP Block Referral Spam**
+1. Go to the `Plugins > Add New`
+1. Search For `WP Block Referral Spam`
 1. Install, then Activate it
 1. The plugin will update the referrer list automatically every 7 days
 
+= From WordPress.org =
 
-**Manual/Old Way:**
-1. Upload `wp-block-referrer-spam` folder to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Download `WP Block Referral Spam` plugin
+1. Upload `wp-block-referrer-spam` directory to your `/wp-content/plugins/` directory, using your favorite method (ftp, sftp, scp, etc...)
+1. Activate `WP Block Referral Spam` through the 'Plugins' page in your WordPress site
 1. Go to **Tools > Block Referrer Spam** page and set the options under **Settings** section
 
 
