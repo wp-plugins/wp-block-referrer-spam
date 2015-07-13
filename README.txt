@@ -44,13 +44,17 @@ It is very easy to check if your site is being attacked by referrer spamers. And
 This plugin is fully compatible with any webserver by default.
 Its adaptability ensures that will work with any version of either apache, nginx, iis or lighttpd webserver.
 
-* When apache is used, the plugin adds specific rules into .htaccess file.
-* When apache is not used, the plugin automatically recognizes it and uses internal code rules to keep away spammers.
+*   When apache is used, the plugin adds specific rules into .htaccess file.
+*   When apache is not used, the plugin automatically recognizes it and uses internal code rules to keep away spammers.
 
 
 = The most updated Referrer Spam List: =
 
 Every week, this plugin updates the list of referrer spammers from [this community-contributed list](https://github.com/piwik/referrer-spam-blacklist) of [referrer spammers](http://en.wikipedia.org/wiki/Referer_spam).
+
+
+**Development is on Bitbucket: https://bitbucket.org/rrodrigonuez/wp-block-referrer-spam**
+Pull requests are more than welcome!
 
 
 == Installation ==
