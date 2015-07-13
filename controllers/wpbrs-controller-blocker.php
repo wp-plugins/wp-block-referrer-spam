@@ -148,6 +148,8 @@ if ( ! class_exists( 'WPBRS_Controller_Blocker' ) ) {
 						}
 					}
 				}
+				
+				fclose( $f );
 				return true;
 			} else {
 				return false;
