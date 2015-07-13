@@ -56,6 +56,8 @@ Requires at least WordPress 3.2 and PHP 5.3
 Every week, this plugin updates the list of referrer spammers from [this community-contributed list](https://github.com/piwik/referrer-spam-blacklist) of [referrer spammers](http://en.wikipedia.org/wiki/Referer_spam).
 
 
+Please show your support for this plugin by giving it a [rating](http://wordpress.org/support/view/plugin-reviews/wp-block-referrer-spam?rate=5?rate=5#postform)
+
 **Development is on Bitbucket: https://bitbucket.org/rrodrigonuez/wp-block-referrer-spam**
 
 Pull requests are more than welcome!
