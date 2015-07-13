@@ -70,7 +70,7 @@ Pull requests are more than welcome!
 1. Install, then Activate it
 1. The plugin will update the referrer list automatically every 7 days
 
-= From WordPress.org =
+= From WordPress.org: =
 
 1. Download `WP Block Referral Spam` plugin
 1. Upload `wp-block-referrer-spam` directory to your `/wp-content/plugins/` directory, using your favorite method (ftp, sftp, scp, etc...)
