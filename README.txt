@@ -62,7 +62,7 @@ Every week, this plugin updates the list of referrer spammers from [this communi
 
 Please show your support for this plugin by giving it a [rating](http://wordpress.org/support/view/plugin-reviews/wp-block-referrer-spam?rate=5?rate=5#postform)
 
-**Development is on Bitbucket: https://bitbucket.org/rrodrigonuez/wp-block-referrer-spam**
+**Development is on GitHub: https://github.com/rrodrigonuez/WP-Block-Referrer-Spam**
 
 Pull requests are more than welcome!
 
